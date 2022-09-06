@@ -13,3 +13,8 @@ futures = "0.3"
 hyper-tls = "0.5.0"
 serde = { version = "1.0.144", features = ["derive"] }
 serde_json = "1.0.85"
+tower = { version = "0.4.13", features = ["full"] }
+
+[dev-dependencies]
+yup-hyper-mock = "*"
+log = "*"  # log macros are used within yup-hyper-mock
